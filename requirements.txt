@@ -1,4 +1,4 @@
-_anaconda_depends==2019.03
+
 _libgcc_mutex==0.1
 _tflow_select==2.1.0
 absl-py==0.8.1
