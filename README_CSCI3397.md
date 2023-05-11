@@ -22,7 +22,7 @@ Again, all group members collaborated to understand and write all sections of th
 
 Callie: Abstract, Introduction, Model, U-net Architecture, Experiments, Results, Further Work
 
-Emma: Dataset, Optimization, Loss Function, Further Work, Conclusion 
+Emma: Introduction, Dataset, Optimization, Loss Function, Further Work, Results, Conclusion 
 
 Austin: Realted Work, Loss Function, ... (add sections you worked on)
 
