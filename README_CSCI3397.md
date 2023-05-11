@@ -1,4 +1,4 @@
-#### CSCI3397 Biomedical Imaging Final Project: Multi-Organ Nuclei Segmentation and Classification Challenge
+# CSCI3397 Biomedical Imaging Final Project: Multi-Organ Nuclei Segmentation and Classification Challenge
 
 The instructions for running the project are adapted from the previous project. We have added some steps which we found necessary to setup the environment and run all of the code locally. 
 
