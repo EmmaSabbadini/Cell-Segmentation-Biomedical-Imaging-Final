@@ -4,7 +4,7 @@ The instructions for running the project are adapted from the previous project. 
 
 ### Our Contributions
 
-All group members (Callie, Emma and Austin) attempted (for a substantial amount of time) to set up this project in Colab. However, as addressed above, Callie discovered a fix which worked on her local machine (editing the efficientnet distribution file, discussed below), and we were unable to find a similar solution for the Colab environment. Additionally, we did not have write-access to this file on the GPUs on the cslab server. Due to the fact that Callie was the only student in the group with sufficient memory/ hardware to run the project locally, all coding was done on her computer. However, we collaborated on all deicsions of how to modeify and adapt the code. Emma was able to sucessfully upload all of the processed data for training and testing as well. 
+All group members (Callie, Emma and Austin) attempted (for a substantial amount of time) to set up this project in Colab. However, as addressed above, Callie discovered a fix which worked on her local machine (editing the efficientnet distribution file, discussed below), and we were unable to find a similar solution for the Colab environment. Additionally, we did not have write-access to this file on the GPUs on the cslab server. Due to the fact that Callie was the only student in the group with sufficient memory/ hardware to run the project locally, all coding was done on her computer. However, we collaborated on all deicsions of how to modeify and adapt the code. Emma was able to sucessfully download and process all of the data according to the MONUSAC-2020 Grand Challenge specifications locally for training and testing as well. 
 
 Code - related contributions: 
 
@@ -14,13 +14,15 @@ Additionally, several modeifications had to be made to the original code in orde
 
 Callie also created test_change_sigma.py and 3b_pq_change_sigma to test the effect of changing sigma within the training of the model, as opposed to solely in post-processing, and to do so during computation of the PQ metric, respectively.
 
+Emma created the github repository and linked the code base with google colabratory and drive. This allowed members to run on the GPUs of the colab when running smaller tasks, however, as mentioned above due to errors in the package downloads and versioning much of the code was edited and ran locally past preprocessing. 
+
 ### Report Breakdown
 
 Again, all group members collaborated to understand and write all sections of the report. The sections were written by group members as follows:
 
 Callie: Abstract, Introduction, Model, U-net Architecture, Experiments, Results, Further Work
 
-Emma: Dataset, ... (add sections you worked on)
+Emma: Dataset, Optimization, Loss Function, Further Work, Conclusion 
 
 Austin: Realted Work, Loss Function, ... (add sections you worked on)
 
