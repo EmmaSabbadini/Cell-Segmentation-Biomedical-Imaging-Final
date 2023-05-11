@@ -752,7 +752,7 @@ for i in tqdm(range(len(test_dataset))):
     pr_mask = np.argmax(pr_mask.squeeze(), axis=-1)
     
     # Post processing to refine predictions
-    pred_filt = cv2.medianBlur(pr_mask.astype(np.uint8), 5)
+    pred_filt = cv2.medianBlur(pr_mask.astype(np.uint8), 7)
     pred_filt = pred_filt.astype(np.uint8)
     
     pq = Panoptic_quality(gt_mask, pr_mask)
