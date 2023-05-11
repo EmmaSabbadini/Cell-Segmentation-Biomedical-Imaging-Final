@@ -1,5 +1,18 @@
+#### CSCI3397 Biomedical Imaging Final Project: Multi-Organ Nuclei Segmentation and Classification Challenge
 
 The instructions for running the project are adapted from the previous project. We have added some steps which we found necessary to setup the environment and run all of the code locally. 
+
+### Our Contributions
+
+All group members (Callie, Emma and Austin) attempted (for a substantial amount of time) to set up this project in Colab. However, as addressed above, Callie discovered a fix which worked on her local machine (editing the efficientnet distribution file, discussed below), and we were unable to find a similar solution for the Colab environment. Additionally, we did not have write-access to this file on the GPUs on the cslab server. Due to the fact that Callie was the only student in the group with sufficient memory/ hardware to run the project locally, all coding was done on her computer. However, we collaborated on all deicsions of how to modeify and adapt the code. Emma was able to sucessfully upload all of the processed data for training and testing as well. 
+
+Code - related contributions: 
+
+Our main contribution was our discussion and analysis of the sigma value for median filtering used within post-processing to generate the segmentation masks. This modification was made within the 4b_inference, and 3b_validate_and_compute_PQ files.
+
+Additionally, several modeifications had to be made to the original code in order for it to run (original code had errors). This included re-writing the instance segmentation function in 4b_inference.py (found starting at line 341), and in 3b_validate_and_compute_PQ.py (found starting at line 411).
+
+Callie also created test_change_sigma.py and 3b_pq_change_sigma to test the effect of changing sigma within the training of the model, as opposed to solely in post-processing, and to do so during computation of the PQ metric, respectively.
 
 ### Requirements
 * Python: 3.6
@@ -61,16 +74,6 @@ NOTE: `segmentation_models` does not have conda distribution. You can install by
 8. Run `4_inference.ipynb` to get final prediction masks from `test_images`. (For visualization)
 9. Run `4b_inference.ipynb` to get final prediction masks according to MoNuSAC submission format.
 
-### Our Contributions
 
-All group members (Callie, Emma and Austin) attempted (for a substantial amount of time) to set up this project in Colab. However, as addressed above, Callie discovered a fix which worked on her local machine (editing the efficientnet distribution file), and we were unable to find a similar solution for the Colab environment. Additionally, we did not have write-access to this file on the GPUs on the cslab server. Due to the fact that Callie was the only student in the group with sufficient memory/ hardware to run the project locally, all coding was done on her computer. However, we collaborated on all deicsions of how to modeify and adapt the code. Emma was able to sucessfully upload all of the processed data for training and testing as well. 
-
-Code - related contributions: 
-
-Our main contribution was our discussion and analysis of the sigma value for median filtering used within post-processing to generate the segmentation masks. This modification was made within the 4b_inference, and 3b_validate_and_compute_PQ files.
-
-Additionally, several modeifications had to be made to the original code in order for it to run (original code had errors). This included re-writing the instance segmentation function in 4b_inference.py (found starting at line 341), and in 3b_validate_and_compute_PQ.py (found starting at line 411).
-
-Callie also created test_change_sigma.py and 3b_pq_change_sigma to test the effect of changing sigma within the training of the model, as opposed to solely in post-processing, and to do so during computation of the PQ metric, respectively.
 
 
