@@ -14,6 +14,17 @@ Additionally, several modeifications had to be made to the original code in orde
 
 Callie also created test_change_sigma.py and 3b_pq_change_sigma to test the effect of changing sigma within the training of the model, as opposed to solely in post-processing, and to do so during computation of the PQ metric, respectively.
 
+### Report Breakdown
+
+Again, all group members collaborated to understand and write all sections of the report. The sections were written by group members as follows:
+
+Callie: Abstract, Introduction, Model, U-net Architecture, Experiments, Results, Further Work
+
+Emma: Dataset, ... (add sections you worked on)
+
+Austin: Realted Work, Loss Function, ... (add sections you worked on)
+
+
 ### Requirements
 * Python: 3.6
 * Tensorflow: 2.0.0
