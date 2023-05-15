@@ -20,12 +20,11 @@ Emma created the github repository and linked the code base with google colabrat
 
 Again, all group members collaborated to understand and write all sections of the report. The sections were written by group members as follows:
 
-Callie: Abstract, Introduction, Model, U-net Architecture, Experiments, Results, Further Work
+Callie: Abstract, Introduction, Model, U-net Architecture, Experiments, Results, Further Work, Conclusion
 
 Emma: Introduction, Dataset, Optimization, Loss Function, Further Work, Results, Conclusion 
 
-Austin: Realted Work, Loss Function, ... (add sections you worked on)
-
+Austin: Realted Work, Loss Function
 
 ### Requirements
 * Python: 3.6
